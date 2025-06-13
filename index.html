@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- HERO SECTION -->
+  <!-- HERO SECTION -->
+<section id="hero" class="h-screen relative bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 text-white">
+  <canvas id="three-canvas" class="absolute inset-0 z-0"></canvas>
+  <div class="relative z-10 flex flex-col items-center justify-center h-full text-center">
+    <h1 class="text-4xl font-bold">Majji Harsha Vardhan</h1>
+    <p class="text-xl">Frontend Web Developer</p>
+    <a href="#projects" class="mt-4 bg-blue-600 text-white px-4 py-2 rounded">View My Work</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-20 text-center bg-white shadow-md">
+  <img src="images/harsha_profile.jpg" class="w-32 h-32 rounded-full mx-auto mb-4" alt="Profile Picture" />
+  <p class="max-w-md mx-auto">I'm Majji Harsha Vardhan, a passionate full-stack developer currently pursuing my B.Tech in Computer Science at Andhra University. I've built and deployed multiple web applications, specializing in React.js, Node.js, and Bootstrap, with hands-on experience in both front-end and back-end development.  
+
+I recently worked as a Software Intern at Octanet, where I collaborated on full-stack projects, optimized performance, and gained real-world problem-solving skills. Beyond my technical skills, I enjoy coming up with new ideas, solving challenges, and working with teams. I’m excited about opportunities where I can use my skills, learn new things, and grow. I look forward to discussing how I can contribute to this role.</p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="py-12 px-6 bg-gradient-to-br from-green-200 via-blue-100 to-purple-200">
+  <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
+
+  <div class="grid md:grid-cols-3 gap-8">
+    
+    <!-- Project 1 -->
+    <div class="bg-white p-4 rounded shadow">
+      <img src="images/greencart.jpg" alt="GreenCart Project" class="w-full h-48 object-cover rounded">
+      <h3 class="text-xl font-semibold mt-4">GreenCart</h3>
+      <p class="text-gray-600 mt-2">An eco-conscious grocery e-commerce platform focused on sustainable shopping experiences.</p>
+      <a href="#" target="_blank" class="text-blue-500 hover:underline mt-2 inline-block">View on GitHub</a>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="bg-white p-4 rounded shadow">
+      <img src="images/healthmate-ai.jpg" alt="HealthMate AI Project" class="w-full h-48 object-cover rounded">
+      <h3 class="text-xl font-semibold mt-4">HealthMate AI</h3>
+      <p class="text-gray-600 mt-2">AI-powered virtual healthcare assistant for personalized diagnostics and monitoring.</p>
+      <a href="#" target="_blank" class="text-blue-500 hover:underline mt-2 inline-block">View on GitHub</a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="bg-white p-4 rounded shadow">
+      <img src="images/eduspark.jpg" alt="EduSpark Project" class="w-full h-48 object-cover rounded">
+      <h3 class="text-xl font-semibold mt-4">EduSpark</h3>
+      <p class="text-gray-600 mt-2">Interactive online education platform empowering remote learning with real-time collaboration.</p>
+      <a href="#" target="_blank" class="text-blue-500 hover:underline mt-2 inline-block">View on GitHub</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-20 text-center bg-gradient-to-br from-pink-100 via-purple-100 to-blue-100">
+  <h2 class="text-2xl font-bold mb-6">Contact Me</h2>
+  <form class="space-y-4 max-w-md mx-auto" id="contact-form">
+    <input type="text" placeholder="Name" id="name" class="w-full p-2 border" />
+    <input type="email" placeholder="Email" id="email" class="w-full p-2 border" />
+    <textarea placeholder="Message" id="message" class="w-full p-2 border h-32"></textarea>
+    <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Send</button>
+  </form>
+</section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
